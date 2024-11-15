@@ -1,29 +1,38 @@
-Skin Cancer Detection
-Overview
+# Skin Cancer Detection
 
-This project aims to develop a machine learning-based system for detecting skin cancer from dermatoscopic images. Using advanced image processing and deep learning algorithms, the model classifies skin lesions as either benign or malignant, helping in the early detection of skin cancer.
-Features
+## Overview
 
-    Image Preprocessing: Standardizes and enhances images for better feature extraction.
-    Deep Learning Model: Implements a convolutional neural network (CNN) to classify skin lesions.
-    Prediction: Provides the classification result with a confidence score (benign or malignant).
-    Model Evaluation: Uses performance metrics like accuracy, precision, recall, and F1-score to evaluate model efficiency.
+The **Skin Cancer Detection** project is a machine learning-based application designed to assist in the early detection of skin cancer by analyzing images of skin lesions. This system uses convolutional neural networks (CNNs) to classify skin lesions as either benign or malignant.
 
-Technologies
+### Key Features:
+- **Image Preprocessing**: Enhances the quality of images for better classification.
+- **Deep Learning Model**: Uses CNN to detect skin cancer with high accuracy.
+- **User Interface**: A simple web or terminal interface that allows users to upload images and receive predictions.
+- **Evaluation Metrics**: Provides performance metrics such as accuracy, precision, recall, and F1-score for model evaluation.
 
-    Python: Primary programming language.
-    TensorFlow/Keras: Framework for building and training the deep learning model.
-    OpenCV: Used for image preprocessing and manipulation.
-    Scikit-learn: For evaluating model performance.
-    Flask/Django (Optional): For web-based user interface and predictions.
+### Technologies:
+- **Python**: Primary language for the implementation.
+- **TensorFlow/Keras**: Framework for building and training the machine learning model.
+- **OpenCV**: Used for image processing.
+- **Scikit-learn**: For model evaluation and performance metrics.
+- **Flask/Django** *(Optional)*: Web framework for creating a user-friendly interface.
 
-Dataset
+## Dataset
 
-The model is trained using the ISIC (International Skin Imaging Collaboration) dataset, which contains labeled skin lesion images. The dataset includes both benign and malignant lesions, making it suitable for classification tasks.
-Getting Started
-Prerequisites
+This project uses publicly available skin lesion datasets such as the **ISIC (International Skin Imaging Collaboration)** dataset. The dataset contains thousands of labeled skin lesion images, categorized as benign (non-cancerous) or malignant (cancerous).
 
-To run this project, you need the following:
+## How It Works
 
-    Python 3.x
-    pip (Python package installer)
+1. **Image Upload**: Users upload an image of a skin lesion through the user interface.
+2. **Image Preprocessing**: The image undergoes preprocessing to normalize its size and quality for better feature extraction.
+3. **Model Prediction**: The image is passed through a trained convolutional neural network (CNN) to predict if the lesion is malignant or benign.
+4. **Result**: The model outputs a prediction, including a confidence score indicating the likelihood of malignancy.
+
+## Installation
+
+### Step 1: Clone the repository
+
+Clone this repository to your local machine using:
+
+```bash
+git clone https://github.com/ananthvipas/skin_cancer_detection.git
