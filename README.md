@@ -30,9 +30,9 @@ This project uses publicly available skin lesion datasets such as the **ISIC (In
 
 ## Installation
 
-### Step 1: Clone the repository
 
-Clone this repository to your local machine using:
+Python Installation: Download and install Python if you haven't already. During installation, check the box to "Add Python to PATH."
 
-```bash
-git clone https://github.com/ananthvipas/skin_cancer_detection.git
+pip install numpy pandas matplotlib scikit-learn tensorflow keras
+
+
