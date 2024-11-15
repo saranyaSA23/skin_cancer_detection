@@ -35,4 +35,6 @@ Python Installation: Download and install Python if you haven't already. During 
 
 pip install numpy pandas matplotlib scikit-learn tensorflow keras
 
+https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000
+
 
