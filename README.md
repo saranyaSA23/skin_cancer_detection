@@ -21,6 +21,10 @@ The **Skin Cancer Detection** project is a machine learning-based application de
 
 This project uses publicly available skin lesion datasets such as the **ISIC (International Skin Imaging Collaboration)** dataset. The dataset contains thousands of labeled skin lesion images, categorized as benign (non-cancerous) or malignant (cancerous).
 
+## Dataset LINk
+
+    https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000
+
 ## How It Works
 
 1. **Image Upload**: Users upload an image of a skin lesion through the user interface.
@@ -33,8 +37,6 @@ This project uses publicly available skin lesion datasets such as the **ISIC (In
 
 Python Installation: Download and install Python if you haven't already. During installation, check the box to "Add Python to PATH."
 
-pip install numpy pandas matplotlib scikit-learn tensorflow keras
 
-https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000
 
 
